@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Rodrigo</p>
+        <h1>Eu estudo Programação</h1>
+        <p>Sou estudante do ensino médio e estou aprendendo o básico da programação front-end e back-end. Veja os projetos
+            que já desenvolvi!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">PYTHON</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Meu site informativo: Genshin Impact</h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta uma lista dos meus artefatos
+                            favoritos, incluindo informações sobre os personagens. A página é estilizada com CSS para uma visualização agradável e usa fontes
+                            externas do Google Fonts.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Decidindo o Futuro: Os 3R's da Sustentabilidade </h5>
+                        <p class="card-text">Este projeto é uma página de informações visando a sustentabilidade ambiental da Terra. Ele contém estilos e imagens que procuram melhorar a qualidade visual e o agrado para ler. Contém, visualmente, como utilizar as lixeiras corretas, como reutilizar seu lixo e diversas outras atividades sustentáveis.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title"> Ajudando a Natureza: In Eco</h5>
+                        </h5>
+                        <p class="card-text">Este projeto HTML cria uma experiência interativa educativa sobre
+                            a ecologia, permitindo aos usuários explorar informações sobre hortas urbanas, agricultura regenerativa, e o
+                            cuidado da Terra através de cenários dinâmicos e diálogos informativos.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Ao acessar a página dedicada a builds e personagens de Genshin Impact, o jogador é
+                         imediatamente imerso em um design vibrante que reflete o estilo artístico do jogo. 
+                         O layout é organizado e intuitivo, permitindo uma navegação fácil entre as diferentes 
+                         seções, cada uma voltada para proporcionar uma experiência enriquecedora.
+                    </p>
+                    <p>Personagens em Destaque: A parte superior da página apresenta uma grade com os personagens 
+                        mais populares do momento. Cada personagem é ilustrado com uma arte impressionante,
+                         incluindo detalhes sobre seu elemento e arma. Ao passar o mouse ou clicar em um personagem, 
+                         uma breve descrição aparece, destacando suas habilidades e papel no combate.</p>
+                        <p>Guias de Builds: A seção central da página é dedicada às builds. Aqui, os jogadores podem 
+                            encontrar builds otimizadas para cada personagem, incluindo a seleção de armas, 
+                            artefatos e estatísticas recomendadas. A informação é apresentada de forma clara, 
+                            com dicas sobre como maximizar o potencial de cada personagem em diferentes situações
+                             de combate. Gráficos e tabelas ilustram as combinações mais eficazes, ajudando os
+                              jogadores a entender as sinergias entre personagens.</p>
+                              <p>Dicas Estratégicas: Em uma aba lateral, os usuários encontram dicas e truques 
+                                sobre como jogar com cada personagem. Isso inclui informações sobre a rotação 
+                                de habilidades, como utilizar os elementos de maneira eficiente e estratégias
+                                 para enfrentar chefes e domínios.</p>
+
+                    <img src="img/projeto-1.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/minhas-leituras/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <p>O documento "RSustentável" visa promover práticas sustentáveis através da redução, reutilização e 
+                        reciclagem (os 3 R's). Ele enfatiza a importância de reduzir o consumo excessivo, reutilizar itens 
+                        criativamente para minimizar o desperdício, e reciclar de forma responsável para preservar recursos 
+                        naturais. O site também compartilha histórias de pessoas que adotam essas práticas, inspirando um 
+                        estilo de vida mais consciente e ecológico.
+                    
+                    
+                    </p>
+                    <p>A redução do consumo é fundamental para o manejo adequado dos recursos naturais e minimização do desperdício.
+                        Reutilizar objetos dá uma nova vida a itens que poderiam ser considerados lixo, contribuindo para a redução do consumo.
+                        Reciclar é essencial para transformar resíduos em novos produtos e evitar a poluição ambiental.
+                    </p>
+                    <p>A prática do consumo consciente envolve avaliar as necessidades antes de comprar e optar por produtos de qualidade. 
+                        Evitar plásticos descartáveis pode ser alcançado pelo uso de produtos reutilizáveis no dia a dia.</p>
+                    <p>O upcycling permite transformar materiais descartados em novos produtos criativos, ampliando sua utilidade.
+                    </p>
+
+
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://digoyukas.github.io/R_Sustentavel/">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/Digoyukas/R_Sustentavel">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                <p>O documento "IN ECO" apresenta uma plataforma dedicada a promover e apoiar projetos ecológicos 
+                    que impactam positivamente as comunidades urbanas e rurais. Ele enfatiza a importância da conexão 
+                    entre o campo e a cidade, destacando iniciativas sustentáveis como hortas urbanas e práticas de 
+                    agricultura regenerativa.</p>
+                <p>O objetivo principal é mostrar como essas iniciativas não apenas melhoram o meio ambiente, mas 
+                    também oferecem oportunidades valiosas para as comunidades.
+                </p>
+                <p>O IN ECO é uma plataforma destinada a descobrir e apoiar projetos ecológicos inovadores.</p>
+                <p>A conexão entre áreas urbanas e rurais é destacada como fundamental para o desenvolvimento sustentável.</p> 
+                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://digoyukas.github.io/Agrinho2024-IN-ECO/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/Digoyukas/Agrinho2024-IN-ECO">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/femascheti">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Fernanda Mascheti</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
